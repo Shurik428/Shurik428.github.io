@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'),
+        url('../fonts/RobotoLight.woff2') format('woff2'),
+        url('../fonts/RobotoLight.woff') format('woff'),
+        url('../fonts/RobotoLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'),
+        url('../fonts/RobotoSlabBold.woff2') format('woff2'),
+        url('../fonts/RobotoSlabBold.woff') format('woff'),
+        url('../fonts/RobotoSlabBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

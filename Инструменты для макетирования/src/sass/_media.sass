@@ -1,0 +1,50 @@
+@media (max-width: 1919px)
+    html, body, .toolsprot, .tools
+        min-height: 523px
+
+@media (max-width: 1200px)
+    html, body, .toolsprot, .tools
+        min-height: 1000px
+    .toolsprot
+        padding: 91px 0
+        h2
+            margin: -2px 0 0 0
+        .tools
+            display: block
+            width: 788px
+            .item
+                float: left
+                margin: 100px 0 0 0
+                &:nth-child(2n)
+                    float: right
+
+@media (max-width: 1024px)
+    .toolsprot
+        .tools
+            width: 77%
+            .item
+                &:nth-child(2n)
+                    margin: 100px 0 0 50px
+
+@media (max-width: 768px)
+    .toolsprot
+        padding: 91px 30px 100px 30px
+        .tools
+            width: 70%
+            .item
+                float: none
+                margin: 100px auto 0 auto
+                &:nth-child(2n)
+                    float: none
+                    margin: 100px auto 100px auto
+                &:last-child
+                    margin: 100px auto 0 auto
+
+@media (max-width: 576px)
+    .toolsprot
+        padding: 91px 0
+        .tools
+            width: 100%
+            min-height: 1500px
+        h2
+            font-size: 30px
