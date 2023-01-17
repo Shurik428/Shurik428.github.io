@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.statistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding: 40px 150px 0 150px;
+  min-height: 200px;
+  width: 1170px;
+  background: #02232b;
+}
+
+.item {
+  text-align: center;
+}
+
+.meaning {
+  font: 600 3.0em 'Open Sans';
+  color: #8f4c31;
+}
+
+.sup {
+  vertical-align: -7px;
+  font: 600 1.2em 'Open Sans';
+}
+
+.definition {
+  text-transform: uppercase;
+  font: 400 0.9em 'Open Sans';
+  color: #ffffff;
+}
+
+.definition__mod {
+  margin: 15px 0 0 0;
+}
+/*# sourceMappingURL=style.css.map */
