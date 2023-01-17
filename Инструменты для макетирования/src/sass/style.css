@@ -1,0 +1,164 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.toolsprot {
+  max-width: 1920px;
+  min-height: 723px;
+  background: #f9f9f9;
+  padding: 91px 0 0 0;
+  margin: 0 auto;
+}
+
+.toolsprot h2 {
+  font: normal 36px "Proxima Nova";
+  color: #000000;
+  text-align: center;
+  letter-spacing: 0.006em;
+  padding: 0 3px 0 0;
+  margin: -2px 0 121px 0;
+}
+
+.toolsprot .tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.toolsprot .tools .item {
+  width: 263px;
+  min-height: 367px;
+}
+
+.toolsprot .tools .item .img {
+  overflow: hidden;
+  width: 263px;
+  height: 210px;
+  background: #ffffff;
+  margin: 0 0 21px 0;
+}
+
+.toolsprot .tools .item .img img {
+  display: block;
+}
+
+.toolsprot .tools .item .img img[src='img/cutter_18.png'] {
+  margin: -1px 0 0 24px;
+}
+
+.toolsprot .tools .item .img img[src='img/cutter_9.png'] {
+  margin: 0 0 0 23px;
+}
+
+.toolsprot .tools .item .img img[src='img/mat.png'] {
+  margin: -4px 0 0 26px;
+}
+
+.toolsprot .tools .item .img img[src='img/ruler.png'] {
+  margin: -65px 0 0 -38px;
+}
+
+.toolsprot .tools .item .title {
+  font: 300 16px "Proxima Nova";
+  color: #000000;
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+
+.toolsprot .tools .item .price {
+  font: bold 18px "Proxima Nova";
+  color: #000000;
+  text-align: center;
+  margin: 0 0 23px 0;
+}
+
+.toolsprot .tools .item button {
+  display: block;
+  width: 200px;
+  height: 55px;
+  background-color: transparent;
+  margin: 0 auto;
+  outline: none;
+  border: 1px solid #23bac1;
+  font: bold 13px "Proxima Nova";
+  text-transform: uppercase;
+  color: #23bac1;
+}
+
+@media (max-width: 1919px) {
+  html, body, .toolsprot, .tools {
+    min-height: 523px;
+  }
+}
+
+@media (max-width: 1200px) {
+  html, body, .toolsprot, .tools {
+    min-height: 1000px;
+  }
+  .toolsprot {
+    padding: 91px 0;
+  }
+  .toolsprot h2 {
+    margin: -2px 0 0 0;
+  }
+  .toolsprot .tools {
+    display: block;
+    width: 788px;
+  }
+  .toolsprot .tools .item {
+    float: left;
+    margin: 100px 0 0 0;
+  }
+  .toolsprot .tools .item:nth-child(2n) {
+    float: right;
+  }
+}
+
+@media (max-width: 1024px) {
+  .toolsprot .tools {
+    width: 77%;
+  }
+  .toolsprot .tools .item:nth-child(2n) {
+    margin: 100px 0 0 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .toolsprot {
+    padding: 91px 30px 100px 30px;
+  }
+  .toolsprot .tools {
+    width: 70%;
+  }
+  .toolsprot .tools .item {
+    float: none;
+    margin: 100px auto 0 auto;
+  }
+  .toolsprot .tools .item:nth-child(2n) {
+    float: none;
+    margin: 100px auto 100px auto;
+  }
+  .toolsprot .tools .item:last-child {
+    margin: 100px auto 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .toolsprot {
+    padding: 91px 0;
+  }
+  .toolsprot .tools {
+    width: 100%;
+    min-height: 1500px;
+  }
+  .toolsprot h2 {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
