@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Tahoma', sans-serif;
+    color: #000000;
+}
+
+.header {
+    padding-top: 77px;
+    padding-bottom: 96px;
+}
+
+.header-text__title {
+    margin-bottom: 15px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.header-text__subtitle {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.header-text__descr {
+    margin-bottom: 47px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.header-text__price {
+    margin-bottom: 53px;
+    color: #313131;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.button {
+    border: 3px solid transparent;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #f05a22;
+    padding: 22px 43px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.button-o {
+    background-color: transparent;
+    border: 3px solid #f05a22;
+    color: #f05a22;
+}
+
+.features {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding-top: 89px;
+    padding-bottom: 100px;
+}
+
+.section-title {
+    margin-bottom: 91px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.features__img {
+    min-height: 55px;
+}
+
+.features__text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+/* КТО УЖЕ КУПИЛ ЭТУ КНИГУ */
+
+.who-bought {
+    margin: 96px 0 112px 0;
+    text-align: center;
+}
+
+.who-bought img {
+    margin: 0 31px 42px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
